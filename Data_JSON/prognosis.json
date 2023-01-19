@@ -1,0 +1,124 @@
+{
+    "progronis": [
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 1
+      },
+      {
+        "tag": "deri_dokuntusu",
+        "patterns": [
+            "deri döküntüsü",
+            ""
+          ],
+        "id": 2
+      },
+      {
+        "tag": "nodal_deri_dokuntuleri",
+        "patterns": [
+            "nodal deri döküntüleri",
+            ""
+          ],
+        "id": 3
+      },
+      {
+        "tag": "surekli_hapsirma",
+        "patterns": [
+            "sürekli hapşırma",
+            ""
+          ],
+        "id": 4
+      },
+      {
+        "tag": "titreme",
+        "patterns": [
+            "titreme",
+            ""
+          ],
+        "id": 5
+      },
+      {
+        "tag": "titreme_nobeti",
+        "patterns": [
+            "titreme nöbeti",
+            ""
+          ],
+        "id": 6
+      },
+      {
+        "tag": "eklem_agrisi",
+        "patterns": [
+            "eklem ağrısı",
+            ""
+          ],
+        "id": 7
+      },
+      {
+        "tag": "mide_agrisi",
+        "patterns": [
+            "mide ağrısı",
+            ""
+          ],
+        "id": 8
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      },
+      {
+        "tag": "kasinti",
+        "patterns": [
+            "kaşıntı",
+            ""
+          ],
+        "id": 10
+      }
+    ]
+  }
