@@ -1,50 +1,42 @@
 {
     "intents": [
       {
-        "tag": "greeting",
+        "tag": "selamlaşma",
         "patterns": [
-          "Hi",
+          "Merhaba",
+          "Selam",
+          "Nasılsınız",
+          "Merhabalar",
+          "Sa",
+          "İyi günler",
           "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
+          "Hey orda mısınız"
         ],
         "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Merhaba, size nasıl yardımcı olabilirim",
+          "Merhaba, bana soru sorabilirsiniz."
         ]
       },
       {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
+        "tag": "vedalaşma",
+        "patterns": [
+          "hoşçakal", 
+          "görüşürüz", 
+          "bye"
+        ],
         "responses": [
           "See you later, thanks for visiting",
           "Have a nice day",
-          "Bye! Come back again soon."
+          "Bye! tekrar görüşmek üzere."
         ]
       },
       {
-        "tag": "thanks",
+        "tag": "teşekkür",
         "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
         "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
-        ]
-      },
-      {
-        "tag": "payments",
+        "tag": "bot_tanıma",
         "patterns": [
           "Do you take credit cards?",
           "Do you accept Mastercard?",
@@ -57,7 +49,7 @@
         ]
       },
       {
-        "tag": "delivery",
+        "tag": "hakkımızda",
         "patterns": [
           "How long does delivery take?",
           "How long does shipping take?",
@@ -69,7 +61,19 @@
         ]
       },
       {
-        "tag": "funny",
+        "tag": "branş_yönlendirme",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "uygulama_işleyiş",
         "patterns": [
           "Tell me a joke!",
           "Tell me something funny!",
@@ -78,6 +82,137 @@
         "responses": [
           "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
           "What did the buffalo say when his son left for college? Bison."
+        ]
+      },      {
+        "tag": "şikayet",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "öneri",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "uygulama_bilgi",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "randevu_bilgi",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "ödeme_bilgi",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "ödeme_kupon",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "reçete_bilgi",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "muayene_bilgi",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "iletişim",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "sosyal_medya",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "kvkk",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
         ]
       }
     ]
