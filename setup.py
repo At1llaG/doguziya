@@ -22,11 +22,11 @@ import nltk
 
 
 #pip3 install nltk
-nltk.download()
-
+#nltk.download()
+nltk.download('all')
 
 #pip3 install Flask torch torchvision nltk
-
+#pip3 install torch torchvision torchaudio
 
 #https://medium.com/@vinitasilaparasetty/how-to-install-numpy-scipy-matplotlib-pandas-scikit-learn-on-windows-46bb6e3e66cf
 #pip3 install numpy
@@ -42,7 +42,7 @@ nltk.download()
 
 #pip3 install -U pip setuptools Wheel
 
-
+#pip3 install selenium
 
 
 #downloader
@@ -55,3 +55,4 @@ nltk.download()
 
 
 
+####how can i pay the services that i want to acquire
