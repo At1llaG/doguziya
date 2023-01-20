@@ -15,7 +15,8 @@
         "responses": [
           "Merhaba, size nasıl yardımcı olabilirim",
           "Merhaba, bana soru sorabilirsiniz."
-        ]
+        ],
+        "id": 1
       },
       {
         "tag": "vedalaşma",
@@ -28,7 +29,8 @@
           "görüşürüz, geldiğiniz için teşekkürler",
           "iyi günler dileriz",
           "umrarım yardımcı olmuşumdur tekrar görüşmek üzere."
-        ]
+        ],
+        "id": 2
       },
       {
         "tag": "teşekkür",
@@ -45,7 +47,8 @@
         ],
         "responses": [
           "benim adım ugi 1 yaşıdayım uygulamayı tanıtma sizi doğru branşa yönlendirmek için burdayım"
-        ]
+        ],
+        "id": 3
       },
       {
         "tag": "hakkımızda",
@@ -56,7 +59,8 @@
         ],
         "responses": [
           "her insanın sağlık hizmetini,belli zaman ve mekana bağlı olmadan kaliteli,kolay hızlı ve Güvenilir bir şekilde alabilmesini sağlamak için kurulmuştur."
-        ]
+        ],
+        "id": 4
       },
       {
         "tag": "branş_yönlendirme",
@@ -67,7 +71,8 @@
         ],
         "responses": [
           "vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
-        ]
+        ],
+        "id": 5
       },
       {
         "tag": "uygulama_işleyiş",
@@ -78,7 +83,8 @@
         ],
         "responses": [
           "uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
-        ]
+        ],
+        "id": 6
       },      {
         "tag": "şikayet",
         "patterns": [
@@ -89,7 +95,8 @@
         ],
         "responses": [
           "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz. "
-        ]
+        ],
+        "id": 7
       },
       {
         "tag": "öneri",
@@ -98,7 +105,8 @@
         ],
         "responses": [
           "önerilerinizi email adresimize gönderin"
-        ]
+        ],
+        "id": 8
       },
       {
         "tag": "uygulama_bilgi",
@@ -109,7 +117,8 @@
         ],
         "responses": [
           "hastane randevu uygulamamız doktorlarla hastaları online ortamda buluşturmak için hizmetinizdedir"
-        ]
+        ],
+        "id": 9
       },
       {
         "tag": "randevu_bilgi",
@@ -121,7 +130,8 @@
         ],
         "responses": [
           "uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz."
-        ]
+        ],
+        "id": 10
       },
       {
         "tag": "ödeme_bilgi",
@@ -133,7 +143,8 @@
         ],
         "responses": [
           "istediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz."
-        ]
+        ],
+        "id": 11
       },
       {
         "tag": "ödeme_kupon",
@@ -144,7 +155,8 @@
         ],
         "responses": [
           "böyle kullanırsın"
-        ]
+        ],
+        "id": 12
       },
       {
         "tag": "reçete_bilgi",
@@ -154,7 +166,8 @@
         ],
         "responses": [
           "üzgünüz reçete yazamıyoruz"
-        ]
+        ],
+        "id": 13
       },
       {
         "tag": "muayene_bilgi",
@@ -164,7 +177,8 @@
         ],
         "responses": [
           "muayene zoom üzerinden olur 20 dakika sürer"
-        ]
+        ],
+        "id": 14
       },
       {
         "tag": "iletişim",
@@ -176,7 +190,8 @@
         ],
         "responses": [
           "dilerseniz wp canlı destek hattımızdan dilediğiniz zaman iletişime geçebilirsiniz."
-        ]
+        ],
+        "id": 15
       },
       {
         "tag": "sosyal_medya",
@@ -187,7 +202,8 @@
         ],
         "responses": [
           "bizi menü kısmında bulunan sosyal medya hesaplarımızdan takip edebilirsiniz."
-        ]
+        ],
+        "id": 16
       },
       {
         "tag": "kvkk",
@@ -197,7 +213,8 @@
         ],
         "responses": [
           "Kişisel verileriniz koruma altındadır."
-        ]
+        ],
+        "id": 17
       }
     ]
   }
