@@ -32,187 +32,172 @@
       },
       {
         "tag": "teşekkür",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        "patterns": ["teşekkürler", "teşekkür ederim","sağol","çok sağol", "çok teşekkürler!"],
+        "responses": ["yardımcı olduğuma sevindim", "her zaman!", "benim için keyifti","rica ederim"]
       },
       {
         "tag": "bot_tanıma",
         "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
+          "siz kimsiniz?",
+          "nasıl yardımcı olabilirsiniz?",
+          "bot ne işe yarar?",
+          "bot nedir?"
         ],
         "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
+          "benim adım ugi 1 yaşıdayım uygulamayı tanıtma sizi doğru branşa yönlendirmek için burdayım"
         ]
       },
       {
         "tag": "hakkımızda",
         "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
+          "Hastanem yanımda neden oluşturulmuştur?",
+          "Şirketin amacı nedir?",
+          "uygulamanın amacı nedir?"
         ],
         "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
+          "her insanın sağlık hizmetini,belli zaman ve mekana bağlı olmadan kaliteli,kolay hızlı ve Güvenilir bir şekilde alabilmesini sağlamak için kurulmuştur."
         ]
       },
       {
         "tag": "branş_yönlendirme",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "hangi bölüme gitmeliyim?",
+          "hangi branşa gitmeliyim?",
+          "hangi alana gitmeliyim?"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
         ]
       },
       {
         "tag": "uygulama_işleyiş",
         "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
+          "uygulamayı nasıl kullanabilirim!",
+          "online randevu nasıl alırım!",
+          "nasıl muayene olabilirim?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
         ]
       },      {
         "tag": "şikayet",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "şikayetimi nereye gönderebilirim?",
+          "önerilemi nereye gönderebilirim?",
+          "şikayetim var",
+          "önerim var"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz. "
         ]
       },
       {
         "tag": "öneri",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "öneride bulunmak istiyorum"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "önerilerinizi email adresimize gönderin"
         ]
       },
       {
         "tag": "uygulama_bilgi",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "uygulamayı tanıyabilir miyim",
+          "hastane randevu sistemi nedir",
+          "uygulama ne işe yarar"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "hastane randevu uygulamamız doktorlarla hastaları online ortamda buluşturmak için hizmetinizdedir"
         ]
       },
       {
         "tag": "randevu_bilgi",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "randevu saatimi öğrenebilir miyim",
+          "randevu bilgilerimi öğrenebilir miyim?",
+          "randevum saat kaçta",
+          "randevu tarihim ne zaman"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz."
         ]
       },
       {
         "tag": "ödeme_bilgi",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "ödememi nasıl gerçekleştirebilirim",
+          "ödememi nasıl yapabilirim",
+          "ödeme konusunda bilgi alabilir miyim "
+
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "istediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz."
         ]
       },
       {
         "tag": "ödeme_kupon",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "merhaba, internetten aldığım indirim kuponu kodunu nasıl kullanabilirim.",
+          " Kupon kodu kullanmak istiyorum.",
+          "Indirim var mı"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "böyle kullanırsın"
         ]
       },
       {
         "tag": "reçete_bilgi",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "reçete yazdırabilir miyim",
+          "reçete verilir mi"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "üzgünüz reçete yazamıyoruz"
         ]
       },
       {
         "tag": "muayene_bilgi",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "muayene nasıl olurum",
+          "muayene kaç dikika sürer"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "muayene zoom üzerinden olur 20 dakika sürer"
         ]
       },
       {
         "tag": "iletişim",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "iletişim bilgileriniz nelerdir",
+          "nasıl iletişime geçebilirim",
+          "size nasıl ulaşabilirim",
+          "email adresiniz nedir"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "dilerseniz wp canlı destek hattımızdan dilediğiniz zaman iletişime geçebilirsiniz."
         ]
       },
       {
         "tag": "sosyal_medya",
         "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
+          "sosyal medya hesaplarınız nelerdir,",
+          "sosyal medya hesaplarınız var mıdır",
+          "hangi sosyal medya hesaplarınız var"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "bizi menü kısmında bulunan sosyal medya hesaplarımızdan takip edebilirsiniz."
         ]
       },
       {
         "tag": "kvkk",
         "patterns": [
-          "Which items do you have?",
+          "kişisel verilerim paylaşılır mı",
           "What kinds of items are there?",
-          "What do you sell?"
+          "kişisel verilerim tehlikede mi"
         ],
         "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
+          "Kişisel verileriniz koruma altındadır."
         ]
       }
     ]

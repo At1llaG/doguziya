@@ -56,3 +56,17 @@ nltk.download('all')
 
 
 ####how can i pay the services that i want to acquire
+
+
+#nltk.download('wordnet')
+#from nltk.stem import WordNetLemmatizerd
+
+
+#nltk.download('stopwords')
+
+
+#pip3 install pyngrok
+
+
+
+
