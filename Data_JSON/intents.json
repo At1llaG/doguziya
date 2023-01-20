@@ -139,7 +139,7 @@
         "tag": "ödeme_kupon",
         "patterns": [
           "merhaba, internetten aldığım indirim kuponu kodunu nasıl kullanabilirim.",
-          " Kupon kodu kullanmak istiyorum.",
+          "Kupon kodu kullanmak istiyorum.",
           "Indirim var mı"
         ],
         "responses": [
@@ -181,9 +181,9 @@
       {
         "tag": "sosyal_medya",
         "patterns": [
-          "sosyal medya hesaplarınız nelerdir,",
-          "sosyal medya hesaplarınız var mıdır",
-          "hangi sosyal medya hesaplarınız var"
+          "Sosyal medya hesaplarınız nelerdir?",
+          "Sosyal medya hesaplarınız var mıdır?",
+          "Hangi sosyal medya hesaplarınız var?"
         ],
         "responses": [
           "bizi menü kısmında bulunan sosyal medya hesaplarımızdan takip edebilirsiniz."
@@ -193,7 +193,6 @@
         "tag": "kvkk",
         "patterns": [
           "kişisel verilerim paylaşılır mı",
-          "What kinds of items are there?",
           "kişisel verilerim tehlikede mi"
         ],
         "responses": [

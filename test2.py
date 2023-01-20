@@ -1,8 +1,11 @@
+# encoding:utf-8
+
+
+
 import json
 
-from nltk_utils import bag_of_words, tokenize, stem
 
-with open('Data_JSON/intents.json', 'r') as f:
+with open('Data_JSON/intents.json', encoding='utf-8') as f:
     intents = json.load(f)
 
 all_words = []
@@ -13,21 +16,11 @@ for intent in intents['intents']:
     tag = intent['tag']
     # add to tag list
     tags.append(tag)
-    for pattern in intent['patterns']:
-        # tokenize each word in the sentence
-        w = tokenize(pattern)
-        # add to our words list
-        all_words.extend(w)
-        # add to xy pair
-        xy.append((w, tag))
 
-# stem and lower each word
-ignore_words = ['?', '.', '!']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
-# remove duplicates and sort
-all_words = sorted(set(all_words))
-tags = sorted(set(tags))
 
-print(len(xy), "patterns")
+
+#tags = sorted(set(tags))
+
+
 print(len(tags), "tags:", tags)
-print(len(all_words), "unique stemmed words:", all_words)
+
