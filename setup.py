@@ -1,4 +1,4 @@
-#import nltk
+import nltk
 #import torch
 
 
@@ -19,5 +19,6 @@
 #pip install opencv-contrib-python
 #pip install opencv-python
 
-
+#pip3 install nltk
+nltk.download()
 
