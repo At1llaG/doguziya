@@ -1114,11 +1114,11 @@
       "id": 124
     },
     {
-      "tag": "aceleci_olma",
+      "tag": "yuzde_kasinti",
       "patterns": [
-          "aceleci olma",
-          "aceleci davranıyorum",
-          "aceleciyim"
+          "yuzum cok kasiniyor",
+          "suratimda kasinma var",
+          "yuzde kasinma kasintim var"
         ],
       "id": 125
     },
