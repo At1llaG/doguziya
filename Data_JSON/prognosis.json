@@ -7,7 +7,6 @@
           "kaşımtım var",
           "kaşınmam var",
           "kaşınıyorum"
-
         ],
       "id": 1
     },
@@ -17,7 +16,6 @@
           "deri döküntüsü",
           "derimde döküntü var",
           "derim dökülüyor"
-
         ],
       "id": 2
     },
@@ -76,8 +74,7 @@
     {
       "tag": "asitlik",
       "patterns": [
-          "asitlik",
-          ""
+          "asitlik"
         ],
       "id": 9
     },
@@ -269,8 +266,6 @@
           "sıvı kaybı",
           "sıvı kaybediyorum",
           "vücudum su tutmuyor"
-          
-          
         ],
       "id": 30
     },
@@ -358,7 +353,7 @@
       "id": 39
     },
     {
-      "tag": "belim_agrisi",
+      "tag": "bel_agrisi",
       "patterns": [
           "bel ağrısı",
           "bel ağrım var",
@@ -371,7 +366,6 @@
       "patterns": [
           "ishal",
           "ishalim"
-          
         ],
       "id": 41
     },
@@ -416,7 +410,6 @@
           "aşırı sıvı yüklenmesi",
           "aşırı sıvı aldım",
           "fazla sıvı aldım"
-  
         ],
       "id": 46
     },
@@ -524,8 +517,7 @@
     {
       "tag": "uzuvlarda_zayiflik",
       "patterns": [
-          "uzuvlarda zayıflık",
-          ""
+          "uzuvlarda zayıflık"
         ],
       "id": 58
     },
@@ -541,8 +533,7 @@
     {
       "tag": "bagirsak_hareketleri_sirasinda_agri",
       "patterns": [
-          "bağırsak hareketleri sırasında ağrı",
-          ""
+          "bağırsak hareketleri sırasında ağrı"
         ],
       "id": 60
     },
@@ -567,8 +558,7 @@
     {
       "tag": "anuste_tahris",
       "patterns": [
-          "anüste tahriş",
-          ""
+          "anüste tahriş"
         ],
       "id": 63
     },
@@ -665,24 +655,21 @@
     {
       "tag": "uzuvlarda_sisme",
       "patterns": [
-          "uzuvlarda şişme",
-          ""
+          "uzuvlarda şişme"
         ],
       "id": 74
     },
     {
       "tag": "asiri_aclik",
       "patterns": [
-          "aşırı açlık",
-          ""
+          "aşırı açlık"
         ],
       "id": 75
     },
     {
       "tag": "evlilik_disi_iliski",
       "patterns": [
-          "evlilik dışı ilişki",
-          ""
+          "evlilik dışı ilişki"
         ],
       "id": 76
     },
@@ -760,8 +747,7 @@
     {
       "tag": "hareketlerde_bukulme",
       "patterns": [
-          "hareketlerde bükülme",
-          ""
+          "hareketlerde bükülme"
         ],
       "id": 85
     },
@@ -849,8 +835,7 @@
     {
       "tag": "kiskirtici_olma",
       "patterns": [
-          "kışkırtıcı olma",
-          ""
+          "kışkırtıcı olma"
         ],
       "id": 95
     },
@@ -885,7 +870,7 @@
     {
       "tag": "net_dusunememe",
       "patterns": [
-          "net dusunemiyorum,
+          "net dusunemiyorum",
           "dusunmemde netlikte değişim oluyor"
         ],
       "id": 99
@@ -902,8 +887,7 @@
     {
       "tag": "karin_agrisi",
       "patterns": [
-          "karın ağrısı",
-          ""
+          "karın ağrısı"
         ],
       "id": 101
     },
@@ -913,7 +897,6 @@
           "anormal adet görme",
           "adet döngümde değişim var",
           "düzensiz adetim var"
-        
         ],
       "id": 102
     },
@@ -956,8 +939,7 @@
     {
       "tag": "aile_gecmisi",
       "patterns": [
-          "aile geçmişi",
-          ""
+          "aile geçmişi"
         ],
       "id": 107
     },
@@ -1010,16 +992,14 @@
     {
       "tag": "steril_olmayan_enjeksiyonlar_almak",
       "patterns": [
-          "steril olmayan enjeksiyonlar almak",
-          ""
+          "steril olmayan enjeksiyonlar almak"
         ],
       "id": 113
     },
     {
       "tag": "koma",
       "patterns": [
-          "koma",
-          ""
+          "koma"
         ],
       "id": 114
     },
@@ -1175,7 +1155,6 @@
           "burun çevresinde kırmızı yara",
           "burun çevremde kırmızı yaralar çıktı",
           "burnumun çevresinde kırmızı yaralar var"
-          
         ],
       "id": 131
     },
