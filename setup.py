@@ -70,6 +70,7 @@ nltk.download('all')
 
 
 
+#pip install flask-cors
 
 #PYTHON API
 

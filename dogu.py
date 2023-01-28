@@ -24,14 +24,14 @@ l1=['kasinti','deri_dokuntusu','nodal_deri_dokuntuleri','surekli_hapsirma','titr
 
 
 disease=['Mantar Enfeksiyonu','Alerji','Reflü','Kronik Kolestaz','İlaç Reaksiyonu',
-    'Peptik Ülser','AIDS','Şeker','Bağırsak Enfeksiyonu','Bronşiyal Astım','Hipertansiyon',
-    'Migren','Boyun Kireçlenmesi',
-    'Felç (Beyin Kanaması)','Sarılık','Sıtma','Su Çiçeği','Dang Humması','Tifo','Hepatit A',
-    'Hepatit B','Hepatit C','Hepatit D','Hepatit E','Alkolik Hepatit','Tüberküloz',
-    'Soğuk Algınlığı','Pnömoni (Zatürre)','Hemoroid',
-    'Kalp Krizi','Varis Damar','Hipotiroidi','Hipertiroidi','Hipoglisemi','Kireçlenme',
-    'Artrit','Vertigo','Akne','İdrar Yolu Enfeksiyonu','Sedef',
-    'İmpetigo']
+        'Peptik Ülser','AIDS','Şeker','Bağırsak Enfeksiyonu','Bronşiyal Astım','Hipertansiyon',
+        'Migren','Boyun Kireçlenmesi',
+        'Felç (Beyin Kanaması)','Sarılık','Sıtma','Su Çiçeği','Dang Humması','Tifo','Hepatit A',
+        'Hepatit B','Hepatit C','Hepatit D','Hepatit E','Alkolik Hepatit','Tüberküloz',
+        'Soğuk Algınlığı','Pnömoni (Zatürre)','Hemoroid',
+        'Kalp Krizi','Varis Damar','Hipotiroidi','Hipertiroidi','Hipoglisemi','Kireçlenme',
+        'Artrit','Vertigo','Akne','İdrar Yolu Enfeksiyonu','Sedef',
+        'İmpetigo']
 
 
 

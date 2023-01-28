@@ -10,11 +10,26 @@
           "Sa",
           "İyi günler",
           "Hey",
-          "Hey orda mısınız"
+          "Hey orda mısınız",
+          "slm",
+         "mrb" ,
+         "naber",
+         "nasılsın",
+         "napıyosun",
+         "hey",
+         "pişt",
+         "orda mısın",
+         "bakar mısın",
+         "orda mısın",
+         "ses ver",
+         "napıyon",
+         "hey orda mısın"
+
         ],
         "responses": [
           "Merhaba, size nasıl yardımcı olabilirim",
           "Merhaba, bana soru sorabilirsiniz."
+
         ],
         "id": 1
       },
@@ -23,7 +38,18 @@
         "patterns": [
           "hoşçakal", 
           "görüşürüz", 
-          "bye"
+          "bye",
+          "kendine iyi bak",
+          "görüşmek üzere",
+          "iyi akşamlar",
+          "iyi geceler",
+          "sonra görüşürüz",
+          "byess",
+          "good bye",
+          "hadi ben kaçtım",
+          "byess"
+          
+
         ],
         "responses": [
           "görüşürüz, geldiğiniz için teşekkürler",
@@ -34,7 +60,7 @@
       },
       {
         "tag": "teşekkür",
-        "patterns": ["teşekkürler", "teşekkür ederim","sağol","çok sağol", "çok teşekkürler!"],
+        "patterns": ["teşekkürler", "teşekkür ederim","sağol","çok sağol", "çok teşekkürler!","yardımın için sağol","yardımınız için twşkkürler","bravo","eyv","eyvallah"],
         "responses": ["yardımcı olduğuma sevindim", "her zaman!", "benim için keyifti","rica ederim"]
       },
       {
@@ -43,7 +69,26 @@
           "siz kimsiniz?",
           "nasıl yardımcı olabilirsiniz?",
           "bot ne işe yarar?",
-          "bot nedir?"
+          "bot nedir?",
+          "bot kim",
+          "bot kimdir",
+          "kimsin sen",
+          "ne yapıyosun",
+          "işlevin ne",
+          "görevin ne",
+          "bu ne",
+          "bu kısım nedir",
+          "burda napıyoruz",
+          "burda napıyosun",
+          "nesin sen",
+          "sen nesin",
+          "ne bu bot",
+          "bu bot ne",
+          "kim bu bot",
+          "amacın ne",
+          "niye varsın",
+          "seni niye yaptılar"
+
         ],
         "responses": [
           "benim adım ugi 1 yaşıdayım uygulamayı tanıtma sizi doğru branşa yönlendirmek için burdayım"
@@ -67,10 +112,26 @@
         "patterns": [
           "hangi bölüme gitmeliyim?",
           "hangi branşa gitmeliyim?",
-          "hangi alana gitmeliyim?"
+          "hangi alana gitmeliyim?",
+          "hangi doktora gitmeliyim",
+          "hangi dokora",
+          "hangi doktor",
+          "hangi birim",
+          "hangi branş",
+          "hangi alan",
+          "nereye gitmeliyim",
+          "kime gitmeliyim",
+          "kimden randevu alıcam",
+          "kimden randevu alabilirim",
+          "bana kim bakabilir",
+          "beni kim muayene edebilir",
+          "Kim beni tedavi edebilir",
+          "uygun bir doktor var mı",
+          "müsait olan bir doktor var mı",
+          "benimle kim ilgilenebilir"
         ],
         "responses": [
-          "vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
+          "Vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
         ],
         "id": 5
       },
@@ -79,10 +140,20 @@
         "patterns": [
           "uygulamayı nasıl kullanabilirim!",
           "online randevu nasıl alırım!",
-          "nasıl muayene olabilirim?"
+          "nasıl muayene olabilirim?",
+          "nasıl tedavi olabirim",
+          "ne yapmam lazım",
+          "nerden muayane olucam",
+          "yardımcı olabilir misin",
+          "bana yardım et",
+          "uygulama nasıl çalışıyor",
+          "yardım lazım",
+          "tam anlamadım",
+          "hastayım ne yapıcam"   
+          
         ],
         "responses": [
-          "uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
+          "Uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
         ],
         "id": 6
       },      {
@@ -91,7 +162,20 @@
           "şikayetimi nereye gönderebilirim?",
           "önerilemi nereye gönderebilirim?",
           "şikayetim var",
-          "önerim var"
+          "önerim var",
+          "şikayet",
+          "şikayetim için ne yapabilirim",
+          "şikayet için ne yapıcam",
+          "şikayet etmek istiyorum",
+          "sizi şikayet edicem",
+          "memnun kalmadım",
+          "yardımcı olmadın",
+          "yardımcı olmadınız",
+          "sorun var",
+          "sorunum var",
+          "çalışmadı",
+          "olmadı"
+
         ],
         "responses": [
           "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz. "
@@ -101,7 +185,14 @@
       {
         "tag": "öneri",
         "patterns": [
-          "öneride bulunmak istiyorum"
+          "öneride bulunmak istiyorum",
+          "öneri",
+          "bir şey dicem",
+          "tavsiyede bulunmak istiyorum",
+          "daha iyi olabilir",
+          "geliştirilebilir",
+          "bir şey söylemek istiyorum",
+          "yetkili birisiyle görüşmek istiyorum"
         ],
         "responses": [
           "önerilerinizi email adresimize gönderin"
@@ -113,7 +204,21 @@
         "patterns": [
           "uygulamayı tanıyabilir miyim",
           "hastane randevu sistemi nedir",
-          "uygulama ne işe yarar"
+          "uygulama ne işe yarar",
+          "uygulamanın amacı ne",
+          "sistemin amacı nedir",
+          "hastanem yanımda nedir",
+          "uygulama neden var",
+          "uygulamadan bahsedebilir misin",
+          "uygulama",
+          "hastanem yanımda",
+          "uygulamadaki amaç ne tam olarak",
+          "uygulamayı anlamadım",
+          "uygulamayı anlat",
+          "hastanem yanımda ne",
+          "ne yapmak istiyosun",
+          "burda napıyosunuz"
+
         ],
         "responses": [
           "hastane randevu uygulamamız doktorlarla hastaları online ortamda buluşturmak için hizmetinizdedir"
@@ -126,7 +231,20 @@
           "randevu saatimi öğrenebilir miyim",
           "randevu bilgilerimi öğrenebilir miyim?",
           "randevum saat kaçta",
-          "randevu tarihim ne zaman"
+          "randevu tarihim ne zaman",
+          "randevum hakkında ayrıntılı bilgi istiyorum",
+          "randevumla ilgili detaylı bilgi talep ediyorum",
+          "randevu",
+          "randevu saati",
+          "randevu bilgisi",
+          "randevu bilgi",
+          "randevu hakkında",
+          "güncel randevu bilgilerim",
+          "randevu durumum",
+          "randevu durum",
+          "randevu kontrol"
+
+
         ],
         "responses": [
           "uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz."
@@ -138,12 +256,18 @@
         "patterns": [
           "ödememi nasıl gerçekleştirebilirim",
           "ödememi nasıl yapabilirim",
-          "ödeme konusunda bilgi alabilir miyim "
+          "ödeme konusunda bilgi alabilir miyim",
+          "ödeme",
+          "ödeme bilgilerim",
+          "ödeme bilgi",
+          "ödeme durum",
+          "ödememi ne zaman yapıcam",
+          "ödemeyi nerede yapıcam",
+          "ödeme hakkında",
+          "ödeme bilgisi"
 
         ],
-        "responses": [
-          "istediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz."
-        ],
+        "responses": "istediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz.",
         "id": 11
       },
       {
@@ -151,11 +275,10 @@
         "patterns": [
           "merhaba, internetten aldığım indirim kuponu kodunu nasıl kullanabilirim.",
           "Kupon kodu kullanmak istiyorum.",
-          "Indirim var mı"
+          "Indirim var mı",
+          "ödeme kuponu kupon"
         ],
-        "responses": [
-          "böyle kullanırsın"
-        ],
+        "responses": "böyle kullanırsın",
         "id": 12
       },
       {
