@@ -3,7 +3,7 @@ from nltk.chat.util import Chat, reflections
 m_pairs = [
     ["Benim adim (.*)", ["Merhaba %1 nasilsin?"]],
     ['(merhaba|selam|sa)',["merhabalarrr", "as"]],
-    ['(.*) hava cok (.*)', ['bence de %1 hava %2']],
+    ['(.*) hava çok (.*)', ['bence de %1 hava %2']],
     ["gittim mi", ["mi"]]
 ]
 
