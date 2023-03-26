@@ -1,0 +1,10 @@
+
+.feedback-yes {
+    background-color: red;
+    text-align: center;
+}
+
+.feedback-no {
+    background-color: green;
+    text-align: center;
+}

@@ -1,0 +1,915 @@
+{
+    "intents": [
+      {
+        "tag": "selamlaşma",
+        "patterns": [
+          "Merhaba",
+          "meraba",
+          "Selam",
+          "Merhabalar",
+          "Sa",
+          "İyi günler",
+          "Hey",
+          "Hey orda mısınız",
+          "slm",
+         "mrb" ,
+         "naber",
+         "napıyosun",
+         "hey",
+         "pişt",
+         "orda mısın",
+         "bakar mısın",
+         "orda mısın",
+         "ses ver",
+         "napıyon",
+         "hey orda mısın"
+
+        ],
+        "responses": [
+          "Merhaba, size nasıl yardımcı olabilirim",
+          "Merhaba, bana soru sorabilirsiniz."
+
+        ],
+        "id": 1
+      },
+      {
+        "tag": "vedalaşma",
+        "patterns": [
+          "hoşçakal", 
+          "görüşürüz", 
+          "bye",
+          "kendine iyi bak",
+          "görüşmek üzere",
+          "iyi akşamlar",
+          "iyi geceler",
+          "sonra görüşürüz",
+          "byess",
+          "good bye",
+          "hadi ben kaçtım",
+          "byess"
+          
+
+        ],
+        "responses": [
+          "görüşürüz, geldiğiniz için teşekkürler",
+          "iyi günler dileriz",
+          "umrarım yardımcı olmuşumdur tekrar görüşmek üzere."
+        ],
+        "id": 2
+      },
+      {
+        "tag": "teşekkür",
+        "patterns": [
+        "teşekkürler",
+         "teşekkür ederim",
+         "sağol",
+         "çok sağol", 
+         "çok teşekkürler!",
+         "yardımın için sağol",
+         "yardımınız için twşkkürler",
+         "bravo",
+         "eyv",
+         "tesekkurler",
+         "tşk",
+         "tsk",
+         "eyvallah"
+         ],
+        "responses": ["yardımcı olduğuma sevindim", "her zaman!", "benim için keyifti","rica ederim"],
+        "id": 33
+      },
+      {
+        "tag": "bot_tanıma",
+        "patterns": [
+          "siz kimsiniz?",
+          "sen kimsin",
+          "kendini tanıt",
+          "adın ne",
+          "nasıl yardımcı olabilirsiniz?",
+          "bot ne işe yarar?",
+          "bot nedir?",
+          "bot kim",
+          "bot kimdir",
+          "kimsin sen",
+          "ne yapıyosun",
+          "işlevin ne",
+          "görevin ne",
+          "bu ne",
+          "bu kısım nedir",
+          "burda napıyoruz",
+          "burda napıyosun",
+          "nesin sen",
+          "sen nesin",
+          "ne bu bot",
+          "bu bot ne",
+          "kim bu bot",
+          "amacın ne",
+          "niye varsın",
+          "seni niye yaptılar",
+          "isim",
+          "ismin var mı"
+
+        ],
+        "responses": [
+          "benim adım ugi 1 yaşıdayım uygulamayı tanıtma sizi doğru branşa yönlendirmek için burdayım"
+        ],
+        "id": 3
+      },
+      {
+        "tag": "hakkımızda",
+        "patterns": [
+          "Hastanem yanımda neden oluşturulmuştur?",
+          "Şirketin amacı nedir?",
+          "uygulamanın amacı nedir?",
+          "hakkınızda"
+        ],
+        "responses": [
+          "her insanın sağlık hizmetini,belli zaman ve mekana bağlı olmadan kaliteli,kolay hızlı ve Güvenilir bir şekilde alabilmesini sağlamak için kurulmuştur."
+        ],
+        "id": 4
+      },
+      {
+        "tag": "branş_yönlendirme",
+        "patterns": [
+          "hangi bölüme gitmeliyim?",
+          "hangi branşa gitmeliyim?",
+          "hangi alana gitmeliyim?",
+          "hangi doktora gitmeliyim",
+          "hangi dokora",
+          "hangi doktor",
+          "hangi birim",
+          "hangi branş",
+          "hangi alan",
+          "nereye gitmeliyim",
+          "kime gitmeliyim",
+          "kimden randevu alıcam",
+          "kimden randevu alabilirim",
+          "bana kim bakabilir",
+          "beni kim muayene edebilir",
+          "Kim beni tedavi edebilir",
+          "uygun bir doktor var mı",
+          "müsait olan bir doktor var mı",
+          "benimle kim ilgilenebilir"
+        ],
+        "responses": [
+          "Vermiş olduğunuz belirtiler doğrultusunda sizi en doğru tıbbi birime yönlendireceğiz."
+        ],
+        "id": 5
+      },
+      {
+        "tag": "uygulama_işleyiş",
+        "patterns": [
+          "uygulamayı nasıl kullanabilirim!",
+          "online randevu nasıl alırım!",
+          "nasıl muayene olabilirim?",
+          "nasıl tedavi olabirim",
+          "ne yapmam lazım",
+          "nerden muayane olucam",
+          "yardımcı olabilir misin",
+          "bana yardım et",
+          "uygulama nasıl çalışıyor",
+          "yardım lazım",
+          "tam anlamadım",
+          "hastayım ne yapıcam"   
+          
+        ],
+        "responses": [
+          "Uygulamaya üye olduktan sonra istediğiniz uzmanlık alanında dilediğiniz doktoru seçip ödeme yaptıktan sonra randevunuzu oluşturabilirsiniz."
+        ],
+        "id": 6
+      },      {
+        "tag": "şikayet",
+        "patterns": [
+          "şikayetimi nereye gönderebilirim?",
+          "önerilemi nereye gönderebilirim?",
+          "şikayetim var",
+          "önerim var",
+          "şikayet",
+          "şikayetim için ne yapabilirim",
+          "şikayet için ne yapıcam",
+          "şikayet etmek istiyorum",
+          "sizi şikayet edicem",
+          "memnun kalmadım",
+          "yardımcı olmadın",
+          "yardımcı olmadınız",
+          "sorun var",
+          "sorunum var",
+          "çalışmadı",
+          "olmadı"
+
+        ],
+        "responses": [
+          "WatsApp canlı destek hattımızdan veya sosyal medya hesaplarınızdan şikayet ve önerilerinizi paylaşabilirsiniz. "
+        ],
+        "id": 7
+      },
+      {
+        "tag": "öneri",
+        "patterns": [
+          "öneride bulunmak istiyorum",
+          "öneri",
+          "bir şey dicem",
+          "tavsiyede bulunmak istiyorum",
+          "daha iyi olabilir",
+          "geliştirilebilir",
+          "bir şey söylemek istiyorum",
+          "yetkili birisiyle görüşmek istiyorum"
+        ],
+        "responses": [
+          "önerilerinizi email adresimize gönderin"
+        ],
+        "id": 8
+      },
+      {
+        "tag": "uygulama_bilgi",
+        "patterns": [
+          "uygulamayı tanıyabilir miyim",
+          "hastane randevu sistemi nedir",
+          "uygulama ne işe yarar",
+          "uygulamanın amacı ne",
+          "sistemin amacı nedir",
+          "hastanem yanımda nedir",
+          "uygulama neden var",
+          "uygulamadan bahsedebilir misin",
+          "uygulama",
+          "hastanem yanımda",
+          "uygulamadaki amaç ne tam olarak",
+          "uygulamayı anlamadım",
+          "uygulamayı anlat",
+          "hastanem yanımda ne",
+          "ne yapmak istiyosun",
+          "burda napıyosunuz"
+
+        ],
+        "responses": [
+          "hastane randevu uygulamamız doktorlarla hastaları online ortamda buluşturmak için hizmetinizdedir"
+        ],
+        "id": 9
+      },
+      {
+        "tag": "randevu_bilgi",
+        "patterns": [
+          "randevu saatimi öğrenebilir miyim",
+          "randevu bilgilerimi öğrenebilir miyim?",
+          "randevum saat kaçta",
+          "randevu tarihim ne zaman",
+          "randevum hakkında ayrıntılı bilgi istiyorum",
+          "randevumla ilgili detaylı bilgi talep ediyorum",
+          "randevu",
+          "randevu saati",
+          "randevu bilgisi",
+          "randevu bilgi",
+          "randevu hakkında",
+          "güncel randevu bilgilerim",
+          "randevu durumum",
+          "randevu durum",
+          "randevu kontrol"
+
+
+        ],
+        "responses": [
+          "uygulamamızda randevularım kısmında güncel randevu bilgilerinize ulaşabilirsiniz."
+        ],
+        "id": 10
+      },
+      {
+        "tag": "ödeme_bilgi",
+        "patterns": [
+          "ödememi nasıl gerçekleştirebilirim",
+          "ödememi nasıl yapabilirim",
+          "ödeme konusunda bilgi alabilir miyim",
+          "ödeme",
+          "ödeme bilgilerim",
+          "ödeme bilgi",
+          "ödeme durum",
+          "ödememi ne zaman yapıcam",
+          "ödemeyi nerede yapıcam",
+          "ödeme hakkında",
+          "ödeme bilgisi",
+          "havale ile ödeme mümkün mü",
+          "kredi kartı",
+          "havale ile ödeme",
+          "ödeme nasıl",
+          "ücretli mi",
+          "ücret",
+          "para"
+
+        ],
+        "responses": ["İstediğiniz uzmanlık alanından dilediğiniz doktoru seçerek randevu oluşturduktan sonra ödemenizi yapabilirsiniz."],
+        "id": 11
+      },
+      {
+        "tag": "ödeme_kupon",
+        "patterns": [
+          "merhaba, internetten aldığım indirim kuponu kodunu nasıl kullanabilirim.",
+          "Kupon kodu kullanmak istiyorum.",
+          "Indirim var mı",
+          "indirim",
+          "pazarlık",
+          "kupon",
+          "kupon kullanmak istiyorum",
+          "ödeme kuponu kupon",
+          "Herhangi bir indirim var mı"
+        ],
+        "responses": ["böyle kullanırsın"],
+        "id": 12
+      },
+      {
+        "tag": "reçete_bilgi",
+        "patterns": [
+          "reçete yazdırabilir miyim",
+          "reçete verilir mi",
+          "reçete",
+          "reçete yazılır mı",
+          "ilacımı nasıl yazdırabilirim",
+          "ilaç yazdırma",
+          "ilaç yazıyor musunuz"
+        ],
+        "responses": [
+          "Üzgünüz henüz reçete yazma hizmetimiz bulunmamaktadır. Bu konuyla alakalı çalışmalarımız devam etmektedir."
+        ],
+        "id": 13
+      },
+      {
+        "tag": "muayene_bilgi",
+        "patterns": [
+          "muayene nasıl olurum",
+          "muayene kaç dikika sürer"
+        ],
+        "responses": [
+          "Muayene online görüşme şeklinde olur"
+        ],
+        "id": 14
+      },
+      {
+        "tag": "iletişim",
+        "patterns": [
+          "iletişim bilgileriniz nelerdir",
+          "nasıl iletişime geçebilirim",
+          "size nasıl ulaşabilirim",
+          "email adresiniz nedir",
+          "iletişim"
+        ],
+        "responses": [
+          "dilerseniz wp canlı destek hattımızdan dilediğiniz zaman iletişime geçebilirsiniz."
+        ],
+        "id": 15
+      },
+      
+      {
+        "tag": "sosyal_medya",
+        "patterns": [
+          "Sosyal medya hesaplarınız nelerdir?",
+          "Sosyal medya hesaplarınız var mıdır?",
+          "Hangi sosyal medya hesaplarınız var?"
+        ],
+        "responses": [
+          "bizi menü kısmında bulunan sosyal medya hesaplarımızdan takip edebilirsiniz."
+        ],
+        "id": 16
+      },
+      {
+        "tag": "kvkk",
+        "patterns": [
+          "kişisel verilerim paylaşılır mı",
+          "kişisel verilerim tehlikede mi",
+          "kişisel veriler"
+        ],
+        "responses": [
+          "Kişisel verileriniz koruma altındadır."
+        ],
+        "id": 17
+      },
+      {
+        "tag": "sinir_bozucu",
+        "patterns": [
+          "Çok sinir bozucusunu",
+          "Sinir oluyorum",
+          "sinir bozmak",
+          "sinir bozucu",
+          "sinirleniyorum",
+          "beni sinir etme",
+          "sinir etmek",
+          "kızdırmak",
+          "canımı sıkma",
+          "canımı sıkıyorsun"
+        ],
+        "responses": [
+          "Geri bildiriminiz için teşekkür ederim",
+          "Kendimi düzelteceğim"
+          
+        ],
+        "id": 18
+      },
+      {
+        "tag": "cevap_ver",
+        "patterns": [
+          "Bana cevap ver",
+          "Bir cevap istiyorum",
+          "Bana cevap verebilir misiniz",
+          "bana bir cevap söyle",
+          "cevap ver",
+          "cevap söyle",
+          "cevap",
+          "yanıt ver",
+          "bana yanıt ver",
+          "yanıt"
+        ],
+        "responses": [
+          "Soruyu daha açık bir şekilde sorabilir misiniz?",
+          "Soruyu farklı bir şekilde sorabilir misiniz?"
+        ],
+        "id": 19
+      },
+      {
+        "tag": "yardımcı_olmuyorsun",
+        "patterns": [
+          "Yardımcı olmuyorsun",
+          "Sen kötüsün",
+          "Sen iyi değilsin",
+          "İşe yaramaz",
+          "işe yaramazsın",
+          "işe yaramıyor",
+          "verdiğin cevap işe yaramıyor",
+          "bana yardımcı olmuyorsun",
+          "vakit kaybı",
+          "vaktimi boşa harcıyorsun",
+          "zamanımı boşa harcıyorsun",
+          "zamanımı harcama",
+          "zamanımı boşa harcama"
+        ],
+        "responses": [
+          "Daha iyi hizmet verebilmek için çalışıyorum. Sorunuzu farklı bir biçimde sorabilir misiniz?"
+        ],
+        "id": 20
+      },
+      {
+        "tag": "bot_amacı",
+        "patterns": [
+          "Sen bot musun",
+          "sen robot musun",
+          "robot musun",
+          "sen insan mısın",
+          "insan mısın",
+          "sen gerçek misin",
+          "gerçek misin",
+          "gerçek bir insan mısın",
+          "kendini tanıt",
+          "sen kimsin",
+          "kendin hakkında konuş",
+          "kendin hakkında bir şeyler söyle",
+          "sen nesin",
+          "gerçek değil misin"
+          
+        ],
+        "responses": [
+          "Ben bir sohbet robotuyum. Size yardımcı olmak için buradayım."
+        ],
+        "id": 21
+      },
+      {
+        "tag": "yardım_eder_misin",
+        "patterns": [
+          "yardıma ihtiyacım var",
+          "yardım eder misin",
+          "bir konuda yardıma ihtiyacım var",
+          "bir sorum var",
+          "sorum var",
+          "yardım et",
+          "bana yardım edebilir misin",
+          "bana yardımcı olabilir misin"
+        ],
+        "responses": [
+          "Size yardımcı olmak için buradayım. Lütfen ne istediğinizi yazın."
+        ],
+        "id": 22
+      },
+      {
+        "tag": "randevu_iptal",
+        "patterns": [
+          "randevu iptal",
+          "randevumu iptal etmek istiyorum",
+          "randevuyu iptal et",
+          "sana randevuyu iptal et dedim",
+          "iptal",
+          "bir randevumu iptal et",
+          "randevumu iptal et"
+        ],
+        "responses": [
+          "Hesabınıza giriş yaptıktan sonra randevunuz iptal edebilirsiniz."
+        ],
+        "id": 23
+      },
+      {
+        "tag": "hayır",
+        "patterns": [
+          "hayır",
+          "hayır hayır",
+          "katılmıyorum",
+          "hayır dedim",
+          "kesinlikle hayır",
+          "asla",
+          "yapma",
+          "imkanı yok",
+          "no",
+          "üzgünüm hayır",
+          "istemiyorum",
+          "teşekkürler ama hayır"
+        ],
+        "responses": [
+          "Pekala tekrar deneyelim. Yapmak istediğiniz işlemi tekrar yazar mısınız?"
+        ],
+        "id": 24
+      },
+      {
+        "tag": "nasılsın",
+        "patterns": [
+          "nasılsın",
+          "bugün nasılsın",
+          "nasıl hissediyorsun",
+          "iyi misin",
+          "bugün nasıl hissediyorsun",
+          "havalar nasıl",
+          "işler nasıl",
+          "ne haber",
+          "naber",
+          "sıhhatin nasıl"
+        ],
+        "responses": [
+          "Çok iyi hissediyorum. Peki ya size yardımcı olabileceğim bir konu var mı?"
+        ],
+        "id": 25
+      },
+      {
+        "tag": "cildiye",
+        "patterns":[
+        "Kızarıklık",
+        "Kaşıntı",
+        "Kuruluk",
+        "Pullanma",
+        "Sivilce",
+        "Sivilce izleri",
+        "Kaşıntı",
+        "Kuruluk",
+        "Pullanma",
+        "Sivilce",
+        "Siyah noktalar",
+        "Lezyonlar",
+        "Kabarcıklar",
+        "Kabuklu yaralar",
+        "Egzama",
+        "Dermatit",
+        "İsilik",
+        "Mantar",
+        "kırmızı döküntüler",
+        "Güneş yanığı",
+        "Kepek",
+        "Döküntü",
+        "Kurdeşen",
+        "Lezyon",
+        "Nodül",
+        "cilt",
+        "leke",
+        "Döküntü",
+        "hassas cilt",
+        "kuru cilt",
+        "cilt rahatsızlığı",
+        "cilt lekesi",
+        "cildim hassas",
+        "cildim çok hassas",
+        "ciltte hassasiyet",
+        "elimde Kızarıklık var",
+        "elimde Kaşıntı var",
+        "elimde Kuruluk var",
+        "elimde Pullanma var",
+        "elimde Yanma hissi var",
+        "elimde Sivilce var",
+        "elimde Lezyonlar var",
+        "elimde Kabarcıklar var",
+        "elimde Egzama var",
+        "elimde Dermatit var",
+        "elimde mantar var",
+        "elimde çatlak var",
+        "elimde Kepek var",
+        "elimde kurdeşen var",
+        "elimde beze var",
+        "elimde leke var",
+        "ayağımda Kızarıklık var",
+        "ayağımda Kaşıntı var",
+        "ayağımda Kuruluk var",
+        "ayağımda Pullanma var",
+        "ayağımda Yanma hissi var",
+        "ayağımda Sivilce var",
+        "ayağımda Lezyonlar var",
+        "ayağımda Kabarcıklar var",
+        "ayağımda Egzama var",
+        "ayağımda Dermatit var",
+        "ayağımda mantar var",
+        "ayağımda çatlak var",
+        "ayağımda Kepek var",
+        "ayağımda kurdeşen var",
+        "ayağımda beze var",
+        "ayağımda leke var",
+        "saçımda Kızarıklık var",
+        "saçımda Kaşıntı var",
+        "saçımda Kuruluk var",
+        "saçımda Pullanma var",
+        "saçımda Yanma hissi var",
+        "saçımda Sivilce var",
+        "saçımda Lezyonlar var",
+        "saçımda Kabarcıklar var",
+        "saçımda Egzama var",
+        "saçımda Dermatit var",
+        "saçımda mantar var",
+        "saçımda çatlak var",
+        "saçımda Kepek var",
+        "saçımda kurdeşen var",
+        "saçımda beze var",
+        "saçımda leke var",
+        "cildimde Kızarıklık var",
+        "cildimde Kaşıntı var",
+        "cildimde Kuruluk var",
+        "cildimde Pullanma var",
+        "cildimde Yanma hissi var",
+        "cildimde Sivilce var",
+        "cildimde Lezyonlar var",
+        "cildimde Kabarcıklar var",
+        "cildimde Egzama var",
+        "cildimde Dermatit var",
+        "cildimde mantar var",
+        "cildimde çatlak var",
+        "cildimde Kepek var",
+        "cildimde kurdeşen var",
+        "cildimde beze var",
+        "cildimde leke var",
+        "kolumda Kızarıklık var",
+        "kolumda Kaşıntı var",
+        "kolumda Kuruluk var",
+        "kolumda Pullanma var",
+        "kolumda Yanma hissi var",
+        "kolumda Sivilce var",
+        "kolumda Lezyonlar var",
+        "kolumda Kabarcıklar var",
+        "kolumda Egzama var",
+        "kolumda Dermatit var",
+        "kolumda mantar var",
+        "kolumda çatlak var",
+        "kolumda Kepek var",
+        "kolumda kurdeşen var",
+        "kolumda beze var",
+        "kolumda leke var",
+        "yüzümde Kızarıklık var",
+        "yüzümde Kaşıntı var",
+        "yüzümde Kuruluk var",
+        "yüzümde Pullanma var",
+        "yüzümde Yanma hissi var",
+        "yüzümde Sivilce var",
+        "yüzümde Lezyonlar var",
+        "yüzümde Kabarcıklar var",
+        "yüzümde Egzama var",
+        "yüzümde Dermatit var",
+        "yüzümde mantar var",
+        "yüzümde çatlak var",
+        "yüzümde Kepek var",
+        "yüzümde kurdeşen var",
+        "yüzümde beze var",
+        "yüzümde leke var",
+        "bileğimde Kızarıklık var",
+        "bileğimde Kaşıntı var",
+        "bileğimde Kuruluk var",
+        "bileğimde Pullanma var",
+        "bileğimde Yanma hissi var",
+        "bileğimde Sivilce var",
+        "bileğimde Lezyonlar var",
+        "bileğimde Kabarcıklar var",
+        "bileğimde Egzama var",
+        "bileğimde Dermatit var",
+        "bileğimde mantar var",
+        "bileğimde çatlak var",
+        "bileğimde Kepek var",
+        "bileğimde kurdeşen var",
+        "bileğimde beze var",
+        "bileğimde leke var",
+        "derimde Kızarıklık var",
+        "derimde Kaşıntı var",
+        "derimde Kuruluk var",
+        "derimde Pullanma var",
+        "derimde Yanma hissi var",
+        "derimde Sivilce var",
+        "derimde Lezyonlar var",
+        "derimde Kabarcıklar var",
+        "derimde Egzama var",
+        "derimde Dermatit var",
+        "derimde mantar var",
+        "derimde çatlak var",
+        "derimde Kepek var",
+        "derimde kurdeşen var",
+        "derimde beze var",
+        "derimde leke var",
+        "karnımda Kızarıklık var",
+        "karnımda Kaşıntı var",
+        "karnımda Kuruluk var",
+        "karnımda Pullanma var",
+        "karnımda Yanma hissi var",
+        "karnımda Sivilce var",
+        "karnımda Lezyonlar var",
+        "karnımda Kabarcıklar var",
+        "karnımda Egzama var",
+        "karnımda Dermatit var",
+        "karnımda mantar var",
+        "karnımda çatlak var",
+        "karnımda Kepek var",
+        "karnımda kurdeşen var",
+        "karnımda beze var",
+        "karnımda leke var",
+        "topuğumda Kızarıklık var",
+        "topuğumda Kaşıntı var",
+        "topuğumda Kuruluk var",
+        "topuğumda Pullanma var",
+        "topuğumda Yanma hissi var",
+        "topuğumda Sivilce var",
+        "topuğumda Lezyonlar var",
+        "topuğumda Kabarcıklar var",
+        "topuğumda Egzama var",
+        "topuğumda Dermatit var",
+        "topuğumda mantar var",
+        "topuğumda çatlak var",
+        "topuğumda Kepek var",
+        "topuğumda kurdeşen var",
+        "topuğumda beze var",
+        "topuğumda leke var"
+        ],        
+                "responses": [
+          "Cildimiz, bedenimizin en büyük ve en dış yüzeyidir. Vücudumuzu dış etkenlerden koruyan, ısı dengemizi sağlayan ve dokularımızın nem dengesini koruyan bu deri tabakası, sağlığımız için son derece önemlidir. Deri, dış etkenlere açık bir yapıya sahip olduğundan, çeşitli cilt hastalıklarıyla karşı karşıya kalabilir. Cilt hastalıkları, sadece estetik kaygılarımızı etkilemekle kalmaz, aynı zamanda yaşam kalitemizi de olumsuz yönde etkileyebilir. Kaşıntı, ağrı, iltihaplanma gibi belirtilerle kendini gösteren cilt hastalıkları, tedavi edilmediğinde ilerleyerek kronik hale gelebilir ve hayat kalitemizi etkileyebilir. \n Bu nedenle cilt rahatsızlıklarının önemsenmesi gerekmektedir. Dilerseniz cilt hastalıkları randevusu için yönlendirme yapabilirim."
+        ],
+        "id": 26
+      },
+      {
+        "tag": "diş",
+        "patterns": [
+          "dış",
+          "Diş",
+          "Diş hekimi",
+          "dişçi",
+          "diş doktoru",
+          "ortodonti",
+          "ortodontik tedaviler",
+          "diş randevusu",
+          "diş temizliği",
+          "diş taşı temizliği",
+          "diş minesi",
+          "diş minesi temizliği",
+          "estekik diş",
+          "protez",
+          "protez diş",
+          "implant",
+          "diş implantı",
+          "kaplama",
+          "porselen kaplama",
+          "gümüş kaplama",
+          "altın kaplama",
+          "diş teli",
+          "dolgu",
+          "diş dolgusu",
+          "ağız kokusu tedavisi",
+          "diş çürümesi",
+          "dişlerde hareketlilik",
+          "diş teli",
+          "diş telinin çıkması",
+          "braket",
+          "diş braketi",
+          "yemeklerin brakete takılması",
+          "dilde tahriş",
+          "yanaklarda tahriş",
+          "metal braket",
+          "seramik braket",
+          "şeffaf plak",
+          "ağız içi",
+          "ağız",
+          "Diş ağrısı",
+          "Diş hassasiyeti",
+          "Diş kaybı",
+          "Diş çürümesi",
+          "Diş eti çekilmesi",
+          "Diş eti kanaması",
+          "Diş çapraşıklığı",
+          "Diş sallanması",
+          "Çene ağrısı",
+          "Dişlerde renk değişimi",
+          "Dişlerde leke oluşumu",
+          "Diş kökü enfeksiyonu",
+          "Diş yüzeyinde çatlaklar",
+          "Diş mine erozyonu",
+          "Çene kilitlenmesi",
+          "Diş dolgusu düşmesi",
+          "Diş kırılması",
+          "Diş iltihabı",
+          "Diş apsesi",
+          "Diş protezlerinde aşınma",
+          "Diş eti iltihabı",
+          "Dişlerde aşırı aşınma",
+          "Ağız kokusu",
+          "Ağız kuruluğu",
+          "Tükürük salgısı azlığı",
+          "Diş gıcırdatma",
+          "Dişeti hastalıkları",
+          "Diş implantı problemleri",
+          "Dişim hassas",
+          "Dişlerimde sızlama var",
+          "Dişim çürüdü",
+          "Dişim kırıldı",
+          "Dişim düştü",
+          "Dişlerim çapraşık",
+          "Dişimde iltihap var.",
+          "Dişimde sert bir şey var gibi hissediyorum",
+          "Dişimde siyah bir nokta var",
+          "Dişimde beyaz lekeler var",
+          "Dişlerimde renk değişikliği var",
+          "Dişim ağrıyor ve yemek yiyemiyorum",
+          "Dişlerimde hassasiyet var, sıcak ve soğuk şeyler yiyemiyorum.",
+          "Dişlerimde bir his kaybı var.",
+          "Dişlerim sallanıyor",
+          "Dişimden kan geliyor.",
+          "Çenemde ağrı var",
+          "Dişimde bir şişlik var.",
+          "Diş dolgum düştü",
+          "Diş protezim rahatsızlık veriyor",
+          "Dişlerimde plak birikintisi var",
+          "Dişimde bir yarık var",    
+          "Dişim çekilmesi gerekiyor",
+          "Diş etlerim kaşınıyor",
+          "Dişlerim gıcırdatıyor",
+          "Diş etim kanıyor",
+          "Ağzımda kötü bir tat var",
+          "Ağzımda sürekli kuruluk hissediyorum",
+          "Dişlerim aşındı",
+          "Dişlerimde bir şey takılı kaldı",
+          "Ağzımda bir tane daha dişim olduğunu hissediyorum",
+          "Ağzımda bir yara var.",
+          "Diş etim çekildi.",
+          "Dişimde çatlak var.",
+          "Dişim sıcaklık hissi veriyor",
+          "Dişimde bir çürük olduğunu hissediyorum",
+          "Dişlerimde bir yanma hissi var",
+          "Dişlerimde bir basınç hissi var",
+          "Dişimde bir sızı hissediyorum",
+          "Dişlerimde bir ağırlık hissi var",
+          "Dişimde bir zonklama hissi var",
+          "Dişimde bir darbe hissi var",
+          "Dişlerimde bir yanıp sönen his var",
+          "Diş etimde bir şişlik var",
+          "Dişimde bir batma hissi var",
+          "Dişimde bir uyuşukluk hissi var",
+          "Dişimde bir kaşıntı hissi var",
+          "Dişlerim çene ağrısına neden oluyor",         
+          "Dişlerim arasında boşluklar var",
+          "Dişlerimde hafif bir yanma hissi var",
+          "Diş etim kanıyor ve hassas.",
+          "Dişlerimde bir baskı hissi var",
+          "Dişlerimde plak birikimi ve kötü ağız kokusu var",
+          "Dişim sıcak ve soğuk şeylere karşı çok hassas",
+          "Dişlerim gıcırdıyor ve çatırdayarak ağrıyor.",
+          "Dişim çürüdü ve koku yayıyor",
+          "Diş etim ağrıyor ve şişti",
+          "Dişlerimde çatlaklar ve kırıklar var.",              
+          "diş ağrım var",
+          "diş hassasiyetim var",
+          "azı dişim var",
+          "dişimde ağrı var",
+          "diş çürümesi var",
+          "dişimde çürüme var",
+          "çürük diş var",
+          "çürük dişim var",
+          "dişimde lezyon var",
+          "dişimde iltihap var",
+          "diş iltihabı var",
+          "diş apsesi var",
+          "dişimde apse var",
+          "diş eti iltihabı var",
+          "dişimde iltihap var",
+          "ağız kuruluğu var",
+          "ağız kuruluğum var",
+          "diş eti hastalığı var",
+          "diş etimde hassaiyet var",
+          "diş sararması var",
+          "dişimde renk değişimi var",
+          "çene ağrısı var",
+          "çene ağrım var",
+          "diş sallanması var",
+          "diş çürümesi var",
+          "dişimde çürüme var",
+          "diş eti kanaması var",
+          "diş etinde kanama var",
+          "diş eğriliği var",
+          "dişim eğri var",
+          "diş gıcırdatması var",
+          "diş implantı var"
+        ],
+        "responses": [
+          "Diş çürümesi, diş eti hastalıkları ve ağız kanseri gibi diş hastalıkları, dişlerin ve ağız sağlığının ciddi şekilde etkilenmesine neden olabilir. Bu hastalıkların önlenmesi için, düzenli diş fırçalama, diş ipi kullanımı, ağız hijyeni ve diş hekimi kontrolleri gereklidir. Erken teşhis ve tedavi, diş hastalıklarının ilerlemesini durdurabilir ve ağız sağlığı için çok önemlidir. Dilerseniz diş hekimi için randevu yönlendirmesi yapabilirim."
+        ],
+        "id": 27
+      }
+      
+    ]
+  }
+  

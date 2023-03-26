@@ -1,0 +1,1172 @@
+{
+  "progronis": [
+    {
+      "tag": "kasinti",
+      "patterns": [
+          "kaşıntı",
+          "kaşımtım var",
+          "kaşınmam var",
+          "kaşınıyorum"
+        ],
+      "id": 1
+    },
+    {
+      "tag": "deri_dokuntusu",
+      "patterns": [
+          "deri döküntüsü",
+          "derimde döküntü var",
+          "derim dökülüyor"
+        ],
+      "id": 2
+    },
+    {
+      "tag": "nodal_deri_dokuntuleri",
+      "patterns": [
+          "nodal deri döküntüleri",
+          "nodal deri döküntüm var"
+        ],
+      "id": 3
+    },
+    {
+      "tag": "surekli_hapsirma",
+      "patterns": [
+          "sürekli hapşırma",
+          "sürekli hapşırıyorum"
+        ],
+      "id": 4
+    },
+    {
+      "tag": "titreme",
+      "patterns": [
+          "titreme",
+          "titremem var",
+          "titriyorum"
+        ],
+      "id": 5
+    },
+    {
+      "tag": "titreme_nobeti",
+      "patterns": [
+          "titreme nöbeti",
+          "titreme nöbeti geçiriyorum",
+          "titreme nöbeti geliyo"
+        ],
+      "id": 6
+    },
+    {
+      "tag": "eklem_agrisi",
+      "patterns": [
+          "eklem ağrısı",
+          "eklem ağrım var",
+          "eklemlerim ağrıyor"
+        ],
+      "id": 7
+    },
+    {
+      "tag": "mide_agrisi",
+      "patterns": [
+          "mide ağrısı",
+          "midem ağrıyor",
+          "mide ağrım var"
+        ],
+      "id": 8
+    },
+    {
+      "tag": "asitlik",
+      "patterns": [
+          "asitlik"
+        ],
+      "id": 9
+    },
+    {
+      "tag": "dilde_ulserler",
+      "patterns": [
+          "dilde ülserler",
+          "dilimde ülser var",
+          "dilimde ülser çıktı"
+        ],
+      "id": 10
+    },
+    {
+      "tag": "kas_erimesi",
+      "patterns": [
+          "kas erimesi",
+          "kas erimem var",
+          "kaslarım eriyor"
+        ],
+      "id": 11
+    },
+    {
+      "tag": "kusma",
+      "patterns": [
+          "kusma",
+          "kusuyorum",
+          "kustum"
+        ],
+      "id": 12
+    },
+    {
+      "tag": "agrili_idrara_cikma",
+      "patterns": [
+          "ağrılı idrara çıkma",
+          "idrar yaparken ağrım var",
+          "idrara çıkarken ağrıyor"
+        ],
+      "id": 13
+    },
+    {
+      "tag": "idarda_kan",
+      "patterns": [
+          "idrarda kan",
+          "idrarımdan kan geliyor",
+          "idarara çıkınca kan geldi",
+          "idrar yaparken kanadı"
+        ],
+      "id": 14
+    },
+    {
+      "tag": "yorgunluk",
+      "patterns": [
+          "yorgunluk hali",
+          "yorgun hissediyorum",
+          "yorgunum",
+          "üzerimde yorgunluk var"
+        ],
+      "id": 15
+    },
+    {
+      "tag": "kilo_alma",
+      "patterns": [
+          "kilo alma",
+          "kilo aldım",
+          "kilomda artış var"
+        ],
+      "id": 16
+    },
+    {
+      "tag": "kaygı",
+      "patterns": [
+          "kaygı",
+          "kaygılı hissediyorum",
+          "kaygı problemim var",
+          "kaygı duyuyorum"
+        ],
+      "id": 17
+    },
+    {
+      "tag": "ellerde_ve_ayaklarda_sogukluk",
+      "patterns": [
+          "ellerde ve ayaklarda soğukluk",
+          "ellerimde ve ayaklarımda soğukluk hissediyorum",
+          "ellerim ve ayaklarım üşüyor"
+        ],
+      "id": 18
+    },
+    {
+      "tag": "ani_duygu_degisimi",
+      "patterns": [
+          "ruh hali değişiklikleri",
+          "ruh halim değişiyor.",
+          "duygudurum bozukluğum var",
+          "ani duygudurum değişikliği yaşıyorum",
+          "aniden modum dusuyo",
+          "ani modumda degisiklikler seziyorum"
+        ],
+      "id": 19
+    },
+    {
+      "tag": "kilo_kaybi",
+      "patterns": [
+          "kilo kaybı",
+          "kilo verdim",
+          "zayıfladım",
+          "kilo kaybettim"
+        ],
+      "id": 20
+    },
+    {
+      "tag": "huzursuzluk",
+      "patterns": [
+          "huzursuzluk",
+          "huzursuzum"
+        ],
+      "id": 21
+    },
+    {
+      "tag": "uyusukluk",
+      "patterns": [
+          "uyusukluk hali",
+          "uyusuk hissediyorum"
+        ],
+      "id": 22      },
+    {
+      "tag": "bademcik_yaralari",
+      "patterns": [
+          "bademcik yaraları",
+          "bademciklerimde yaralar var"
+        ],
+      "id": 23
+    },
+    {
+      "tag": "duzensiz_seker_seviyesi",
+      "patterns": [
+          "düzensiz şeker seviyesi ",
+          "şekerim oynuyo",
+          "şeker seviyem düzensiz"
+        ],
+      "id": 24
+    },
+    {
+      "tag": "oksuruk",
+      "patterns": [
+          "öksürük",
+          "öksürüğüm var",
+          "öksürüyorum"
+        ],
+      "id": 25
+    },
+    {
+      "tag": "yuksek_ates",
+      "patterns": [
+          "yüksek ateş",
+          "ateşim yüksek çıktı",
+          "ateşim var"
+        ],
+      "id": 26
+    },
+    {
+      "tag": "gozlerde_cokukluk",
+      "patterns": [
+          "gözlerde çöküklük",
+          "gözlerimde çöküklük var",
+          "gözlerim çökük"
+        ],
+      "id": 27
+    },
+    {
+      "tag": "nefes_darligi",
+      "patterns": [
+          "nefes darlığı",
+          "nefesim daralıyor",
+          "nefes darlığım var"
+        ],
+      "id": 28
+    },
+    {
+      "tag": "terlemek",
+      "patterns": [
+          "terlemek",
+          "terliyorum"
+        ],
+      "id": 29
+    },
+    {
+      "tag": "sivi_kaybi",
+      "patterns": [
+          "sıvı kaybı",
+          "sıvı kaybediyorum",
+          "vücudum su tutmuyor"
+        ],
+      "id": 30
+    },
+    {
+      "tag": "hazimsizlik",
+      "patterns": [
+          "hazımsızlık",
+          "hazımsızlığım var",
+          "hazımsızım"
+        ],
+      "id": 31
+    },
+    {
+      "tag": "bas_agrisi",
+      "patterns": [
+          "baş ağrısı",
+          "baş ağrım var",
+          "başım ağrıyor"
+        ],
+      "id": 32
+    },
+    {
+      "tag": "ciltte_sararma",
+      "patterns": [
+          "ciltte sararma ",
+          "cildimde sararma var",
+          "rengim sarardı"
+        ],
+      "id": 33
+    },
+    {
+      "tag": "koyu_idrar",
+      "patterns": [
+          "koyu idrar",
+          "idrarım koyu renkte"
+        ],
+      "id": 34
+    },
+    {
+      "tag": "mide_bulantisi ",
+      "patterns": [
+          "mide bulantısı ",
+          "midem bulanıyor",
+          "mide bulantım var"
+        ],
+      "id": 35
+    },
+    {
+      "tag": "istah_kaybi",
+      "patterns": [
+          "iştah kaybı",
+          "yemek yemek istemiyorum",
+          "iştahım yok",
+          "iştahım azaldı"
+        ],
+      "id": 36
+    },
+    {
+      "tag": "goz_arkasinda_agri",
+      "patterns": [
+          "göz arkasında ağrı",
+          "gözümün arkasında ağrı var",
+          "gözümün arka kısmında ağrı hissediyorum"
+        ],
+      "id": 37
+    },
+    {
+      "tag": "sirt_agrisi",
+      "patterns": [
+          "sırt ağrısı",
+          "sırtım ağrıyor",
+          "sırt ağrım var"
+        ],
+      "id": 38
+    },
+    {
+      "tag": "kabizlik",
+      "patterns": [
+          "kabızlık",
+          "tuvaletimi yapamıyorum",
+          "kabızlık sorunum var",
+          "kabızım"
+          
+        ],
+      "id": 39
+    },
+    {
+      "tag": "bel_agrisi",
+      "patterns": [
+          "bel ağrısı",
+          "bel ağrım var",
+          "belim ağrıyor"
+        ],
+      "id": 40
+    },
+    {
+      "tag": "ishal",
+      "patterns": [
+          "ishal",
+          "ishalim"
+        ],
+      "id": 41
+    },
+    {
+      "tag": "hafif_ates",
+      "patterns": [
+          "hafif ateş",
+          "ateşim hafif yüksek",
+          "ateşim biraz yüksek"
+        ],
+      "id": 42
+    },
+    {
+      "tag": "sari_idrar",
+      "patterns": [
+          "sarı idrar",
+          "idrarım sarı renkte"
+        ],
+      "id": 43
+    },
+    {
+      "tag": "gozlerin_sararmasi",
+      "patterns": [
+          "gözlerin sararması",
+          "gözlerim sarardı",
+          "gözlerimde sararma var"
+        ],
+      "id": 44
+    },
+    {
+      "tag": "akut_karaciger_yetmezligi",
+      "patterns": [
+          "akut karaciğer yetmezliği",
+          "akut karaciğer yetmezliğim var",
+          "karaciğerimde yetmezlik var"
+        ],
+      "id": 45
+    },
+    {
+      "tag": "asiri_sivi_yuklenmesi",
+      "patterns": [
+          "aşırı sıvı yüklenmesi",
+          "aşırı sıvı aldım",
+          "fazla sıvı aldım"
+        ],
+      "id": 46
+    },
+    {
+      "tag": "midede_siskinlik",
+      "patterns": [
+          "midede şişkinlik",
+          "midemde şişkinlik hissedyorum",
+          "midem şişkin"
+        ],
+      "id": 47
+    },
+    {
+      "tag": "sismis_lenf_dugumleri",
+      "patterns": [
+          "şişmiş lenf düğümleri",
+          "lenf düğümlerimde şişkinlik var",
+          "lenf bezelerimde şişlik var"
+        ],
+      "id": 48
+    },
+    {
+      "tag": "halsizlik",
+      "patterns": [
+          "halsizlik",
+          "halsizim",
+          "kendimi halsiz hissediyrum"
+        ],
+      "id": 49
+    },
+    {
+      "tag": "bulanik_ve_bozuk_gorus",
+      "patterns": [
+          "bulanık ve bozuk görüş",
+          "bulanık ve bozuk görüyorum",
+          "gözlerimde bulanıklık ve bozukluk var"
+        ],
+      "id": 50
+    },
+    {
+      "tag": "balgam",
+      "patterns": [
+          "balgam",
+          "balgamım var",
+          "balgam geliyo"
+        ],
+      "id": 51
+    },
+    {
+      "tag": "bogazda_tahris",
+      "patterns": [
+          "boğazda tahriş",
+          "boğazlarım tahriş oldu",
+          "boğazlarım yara oldu"
+        ],
+      "id": 52
+    },
+    {
+      "tag": "gozlerde_kizarma",
+      "patterns": [
+          "gözlerde kızarma",
+          "gözlerim kızarık",
+          "gözlerimde kızarma var"
+        ],
+      "id": 53
+    },
+    {
+      "tag": "sinus_basinci",
+      "patterns": [
+          "sinüs basıncı",
+          "yüzümde baskı hissediyorum",
+          "sinüslerim dolu",
+          "sinüslerimde basınç hissediyorum"
+        ],
+      "id": 54
+    },
+    {
+      "tag": "burun_akmasi",
+      "patterns": [
+          "burun akması",
+          "burnum akıyor",
+          "burun akıntım var"
+        ],
+      "id": 55
+    },
+    {
+      "tag": "tikaniklik",
+      "patterns": [
+          "tıkanıklık",
+          "tıkanıklığım var",
+          "tıkanıyorum"
+        ],
+      "id": 56
+    },
+    {
+      "tag": "gogus_agrisi",
+      "patterns": [
+          "göğüs ağrısı",
+          "göğsüm ağrıyor",
+          "göğsümde ağrı hissediyorum",
+          "göğüs ağrım var"
+        ],
+      "id": 57
+    },
+    {
+      "tag": "uzuvlarda_zayiflik",
+      "patterns": [
+          "uzuvlarda zayıflık"
+        ],
+      "id": 58
+    },
+    {
+      "tag": "hizli_kalp_atisi",
+      "patterns": [
+          "hızlı kalp atışı",
+          "kalbim çok hızlı atıyor",
+          "kalp atışım çok hızlı"
+        ],
+      "id": 59
+    },
+    {
+      "tag": "bagirsak_hareketleri_sirasinda_agri",
+      "patterns": [
+          "bağırsak hareketleri sırasında ağrı"
+        ],
+      "id": 60
+    },
+    {
+      "tag": "anal_bolgede_agri",
+      "patterns": [
+          "anal bölgede ağrı",
+          "anal bölgemde ağrı var",
+          "anal bölgemde ağrı hissediyorum"
+        ],
+      "id": 61
+    },
+    {
+      "tag": "kanli_diski",
+      "patterns": [
+          "kanlı dışkı",
+          "dışkımdan kan geldi",
+          "dışkımda kan var"
+        ],
+      "id": 62
+    },
+    {
+      "tag": "anuste_tahris",
+      "patterns": [
+          "anüste tahriş"
+        ],
+      "id": 63
+    },
+    {
+      "tag": "boyun_agrisi",
+      "patterns": [
+          "boyun ağrısı",
+          "boynum ağrıyor",
+          "boynumda ağrı var"
+        ],
+      "id": 64
+    },
+    {
+      "tag": "bas_donmesi",
+      "patterns": [
+          "baş dönmesi",
+          "başım dönüyor"
+        ],
+      "id": 65
+    },
+    {
+      "tag": "kramplar",
+      "patterns": [
+          "kramplar",
+          "kramp giriyor"
+        ],
+      "id": 66
+    },
+    {
+      "tag": "morarma",
+      "patterns": [
+          "morarma",
+          "morarma sorunum var",
+          "morarmalarım var",
+          "morarmam var",
+          "morarıklık var"
+        ],
+      "id": 67
+    },
+    {
+      "tag": "obezite",
+      "patterns": [
+          "obezite",
+          "obezitem var",
+          "obezim",
+          "aşırı kilom var"
+        ],
+      "id": 68
+    },
+    {
+      "tag": "bacaklarda_sisme",
+      "patterns": [
+          "bacaklarda şişme",
+          "bacaklarımda şişkinlik var",
+          "bacaklarım şişler var"
+        ],
+      "id": 69
+    },
+    {
+      "tag": "kan_damarlarinda_sisme",
+      "patterns": [
+          "kan damarlarında şişme",
+          "damarlarım şişkin",
+          "damarlarım geniş gözüküyor"
+        ],
+      "id": 70
+    },
+    {
+      "tag": "yuz_ve_gozlerde_kabariklik",
+      "patterns": [
+          "yüz ve gözlerde kabarıklık",
+          "yüzüm gözüm kabarık",
+          "yüzüm ve gözlerim şiş"
+        ],
+      "id": 71
+    },
+    {
+      "tag": "tiroitte_buyume",
+      "patterns": [
+          "tiroitte büyüme",
+          "tiroidimde büyüme var"
+        ],
+      "id": 72
+    },
+    {
+      "tag": "tirnaklarda_kirilganlik",
+      "patterns": [
+          "tırnaklarda kırılganlık",
+          "tırnaklarım kırılıyor",
+          "tırnaklarım çok hasssas"
+        ],
+      "id": 73
+    },
+    {
+      "tag": "uzuvlarda_sisme",
+      "patterns": [
+          "uzuvlarda şişme"
+        ],
+      "id": 74
+    },
+    {
+      "tag": "asiri_aclik",
+      "patterns": [
+          "aşırı açlık"
+        ],
+      "id": 75
+    },
+    {
+      "tag": "evlilik_disi_iliski",
+      "patterns": [
+          "evlilik dışı ilişki"
+        ],
+      "id": 76
+    },
+    {
+      "tag": "dudaklarda_kuruma_ve_karincalanma",
+      "patterns": [
+          "dudaklarda kuruma ve karıncalanma",
+          "dudaklarım kuruyor",
+          "dudaklarımda karıncalanma hissediyorum"
+        ],
+      "id": 77
+    },
+    {
+      "tag": "konusma_bozuklugu",
+      "patterns": [
+          "konuşma bozukluğu",
+          "konuşmamda sıkıntı var",
+          "konuşma bozukluğum var"
+        ],
+      "id": 78
+    },
+    {
+      "tag": "diz_agrisi",
+      "patterns": [
+          "diz ağrısı",
+          "dizimd ağrı var",
+          "dizlerim ağrıyor"
+        ],
+      "id": 79
+    },
+    {
+      "tag": "kalca_ekleminde_agri",
+      "patterns": [
+          "kalça ekleminde ağrı",
+          "kalçamda ağrı var",
+          "kalçam ağrıyor"
+        ],
+      "id": 80
+    },
+    {
+      "tag": "kas_gucsuzlugu",
+      "patterns": [
+          "kas güçsüzlüğü",
+          "kaslarım çok güçzsüz",
+          "kaslarımda güçsüzlük var"
+        ],
+      "id": 81
+    },
+    {
+      "tag": "boyun_tutulmasi",
+      "patterns": [
+          "boyun tutulması",
+          "boynum tutuldu"
+        ],
+      "id": 82
+    },
+    {
+      "tag": "eklemlerde_sisme",
+      "patterns": [
+          "eklemlerde şişme",
+          "eklemlerimde şişlik var",
+          "eklemlerim şiş"
+        ],
+      "id": 83
+    },
+    {
+      "tag": "hareketlerde_zorlanma",
+      "patterns": [
+          "hareketlerde zorlanma",
+          "hareket ederken zorlanıyorum",
+          "haraket esnasında rahatsız hissediyorum"
+        ],
+      "id": 84
+    },
+    {
+      "tag": "hareketlerde_bukulme",
+      "patterns": [
+          "hareketlerde bükülme"
+        ],
+      "id": 85
+    },
+    {
+      "tag": "denge_kaybi",
+      "patterns": [
+          "denge kaybı",
+          "denge kaybım var",
+          "dengede duramıyorum"
+        ],
+      "id": 86
+    },
+    {
+      "tag": "sabit_olamama",
+      "patterns": [
+          "sabit duramıyorum",
+          "sabit dururken sorun yaşıyorum"
+        ],
+      "id": 87
+    },
+    {
+      "tag": "vucudun_bir_tarafinda_gucsuzluk",
+      "patterns": [
+          "vücudun bir taradında güçsüzlük",
+          "vücudumun bir tarafı güçsüz",
+          "vücudumun bir tarafında güçsüzlük var",
+          "sağ tarafımda güçsüzlük var",
+          "sol tarafımda güçsüzlük var"
+        ],
+      "id": 88
+    },
+    {
+      "tag": "koku_kaybi",
+      "patterns": [
+          "koku kaybı",
+          "koku alamıyorum",
+          "koku kaybım var",
+          "az koku alıyorum"
+        ],
+      "id": 89
+    },
+    {
+      "tag": "mesane _rahatsizligi",
+      "patterns": [
+          "mesane rahatsızlığı",
+          "mesanemde rahatsızlık var"
+        ],
+      "id": 90
+    },
+    {
+      "tag": "idrarin_kotu_kokmasi",
+      "patterns": [
+          "idrarın kötü kokması",
+          "idrarımda kötü koku var",
+          "idrarım kötü kokuyor"
+        ],
+      "id": 91
+    },
+    {
+      "tag": "surekli_idrar_hissi",
+      "patterns": [
+          "sürekli idrar hissi",
+          "sürekli çişim geliyor",
+          "sürekli idrar yapasım geliyor",
+          "sürekli idarara çıkıyorum"
+        ],
+      "id": 92
+    },
+    {
+      "tag": "gaz_kacirma",
+      "patterns": [
+          "gaz kaçırma ",
+          "gaz kaçırıyorum"
+        ],
+      "id": 93
+    },
+    {
+      "tag": "ic_kasinti",
+      "patterns": [
+          "iç kaşıntı",
+          "içimde kaşıntı hissediyorum"
+        ],
+      "id": 94
+    },
+    {
+      "tag": "kiskirtici_olma",
+      "patterns": [
+          "kışkırtıcı olma"
+        ],
+      "id": 95
+    },
+    {
+      "tag": "depresyon",
+      "patterns": [
+          "depresyon",
+          "depresyondayım",
+          "psikolojim bozuk"
+        ],
+      "id": 96
+    },
+    {
+      "tag": "sinirlilik",
+      "patterns": [
+          "sinirlilik",
+          "sinirli hissediyorum",
+          "sinirleniyorum"
+        ],
+      "id": 97
+    },
+    {
+      "tag": "kas_agrisi",
+      "patterns": [
+          "kas ağrısı",
+          "kas ağrım var",
+          "kaslarım ağrıyor",
+          "kaslarımda ağrı hissediyorum"
+        ],
+      "id": 98
+    },
+    {
+      "tag": "net_dusunememe",
+      "patterns": [
+          "net dusunemiyorum",
+          "dusunmemde netlikte değişim oluyor"
+        ],
+      "id": 99
+    },
+    {
+      "tag": "vucut_uzerinde_kirmizi_noktalar",
+      "patterns": [
+          "vücut üzerinde kırmızı noktalar",
+          "vücudumda kırmızı noktalar var",
+          "vücudumda kırmızı noktalar çıktı"
+        ],
+      "id": 100
+    },
+    {
+      "tag": "karin_agrisi",
+      "patterns": [
+          "karın ağrısı"
+        ],
+      "id": 101
+    },
+    {
+      "tag": "anormal_adet_gorme",
+      "patterns": [
+          "anormal adet görme",
+          "adet döngümde değişim var",
+          "düzensiz adetim var"
+        ],
+      "id": 102
+    },
+    {
+      "tag": "deride_pigment_bozuklugu",
+      "patterns": [
+          "deride pigment bozukluğu",
+          "derimde pigment bozukluğu var"
+        ],
+      "id": 103
+    },
+    {
+      "tag": "gozlerin_sulanmasi",
+      "patterns": [
+          "gözlerin sulanması",
+          "gözlerim sulanıyor",
+          "gözlerim yaşarıyor",
+          "gözlerimde sulanma var"
+        ],
+      "id": 104
+    },
+    {
+      "tag": "istah_artisi",
+      "patterns": [
+          "iştah artışı",
+          "iştahımda artış var",
+          "iştahlıyım"
+        ],
+      "id": 105
+    },
+    {
+      "tag": "asiri_idrar_cikisi",
+      "patterns": [
+          "aşırı idrar çıkışı",
+          "aşırı idarar çıkışı oluyor",
+          "fazla idarar çıkarıyorum"
+        ],
+      "id": 106
+    },
+    {
+      "tag": "aile_gecmisi",
+      "patterns": [
+          "aile geçmişi"
+        ],
+      "id": 107
+    },
+    {
+      "tag": "mukuslu_balgam",
+      "patterns": [
+          "mukuslu balgam",
+          "balgamım mukuslu",
+          "mukuslu balgam geliyo"
+        ],
+      "id": 108
+    },
+    {
+      "tag": "pasli_balgam",
+      "patterns": [
+          "paslı balgam",
+          "balgamım kahverengi",
+          "paslı balgam geliyor",
+          "balgamım pas renginde"
+        ],
+      "id": 109
+    },
+    {
+      "tag": "konsantrasyon_eksikligi",
+      "patterns": [
+          "konsantrasyon eksikliği",
+          "odaklanamıyorum",
+          "konsantrasyon eksikliğim var"
+        ],
+      "id": 110
+    },
+    {
+      "tag": "gorsel_rahatsizliklar",
+      "patterns": [
+          "görsel rahatsızlıklar",
+          "görmemde sorunlar yaşıyorum",
+          "görüşümde sıkıntıkar var"
+        ],
+      "id": 111
+    },
+    {
+      "tag": "kan_nakli_almak",
+      "patterns": [
+          "kan nakli almak",
+          "kan nakli almıştım",
+          "kan nakli aldım"
+        ],
+      "id": 112
+    },
+    {
+      "tag": "steril_olmayan_enjeksiyonlar_almak",
+      "patterns": [
+          "steril olmayan enjeksiyonlar almak"
+        ],
+      "id": 113
+    },
+    {
+      "tag": "koma",
+      "patterns": [
+          "koma"
+        ],
+      "id": 114
+    },
+    {
+      "tag": "mide_kanamasi",
+      "patterns": [
+          "mide kanaması",
+          "mide kanaması geçirdim",
+          "mide kanamsı yaşadım"
+        ],
+      "id": 115
+    },
+    {
+      "tag": "karin_siskinligi",
+      "patterns": [
+          "karın şişkinliği",
+          "karnımda şişkinlik var",
+          "karnım şişkin"
+        ],
+      "id": 116
+    },
+    {
+      "tag": "alkol_tuketimi_oykusu",
+      "patterns": [
+          "alkol tüketimi öyküsü",
+          "alkol kullandım",
+          "alkol kullanıyorum"
+        ],
+      "id": 117
+    },
+    {
+      "tag": "asiri_sivi_yuklenmesi",
+      "patterns": [
+          "aşırı sıvı yüklenmesi",
+          "aşırı sıvı aldım",
+          "aşrı sıvı tükettim",
+          "aşırı su tükettim"
+        ],
+      "id": 118
+    },
+    {
+      "tag": "balgamda_kan",
+      "patterns": [
+          "balgamda kan",
+          "balgamımdan kan geldi",
+          "balgamımda kan var"
+        ],
+      "id": 119
+    },
+    {
+      "tag": "baldirda_belirgin_damarlar",
+      "patterns": [
+          "baldırda belirgin damarlar",
+          "baldırımda belirgin damarlar var",
+          "baldırımdaki damarlar belirgin"
+        ],
+      "id": 120
+    },
+    {
+      "tag": "carpinti",
+      "patterns": [
+          "çarpıntı",
+          "çarpımtım var",
+          "kalbim fazla atıyor"
+        ],
+      "id": 121
+    },
+    {
+      "tag": "agrili_yuruyus",
+      "patterns": [
+          "ağrılı yürüyüş",
+          "yürürken ağrı hissediyorum",
+          "yürürken canım yanıyor"
+        ],
+      "id": 122
+    },
+    {
+      "tag": "iltihapli_sivilce_cikmasi",
+      "patterns": [
+          "iltihaplı sivilce çıkması",
+          "iltihaplı sivilceler çıkıyor",
+          "iltihaplı sivilcelerim var",
+          "sivilcelerim iltahaplı"
+        ],
+      "id": 123
+    },
+    {
+      "tag": "siyah_noktalar",
+      "patterns": [
+          "siyah noktalar",
+          "siyah noktalarım var",
+          "siyah noktalarım çıktı"
+        ],
+      "id": 124
+    },
+    {
+      "tag": "yuzde_kasinti",
+      "patterns": [
+          "yuzum cok kasiniyor",
+          "suratimda kasinma var",
+          "yuzde kasinma kasintim var"
+        ],
+      "id": 125
+    },
+    {
+      "tag": "ciltte_soyulma",
+      "patterns": [
+          "ciltte soyulma",
+          "derim soyuluyor",
+          "derimde soyulma var",
+          "cildimde soyulma var"
+        ],
+      "id": 126
+    },
+    {
+      "tag": "cilt_renginde_degisme",
+      "patterns": [
+          "cilt renginde değişme",
+          "cildimin renginde deiğişim var",
+          "ten rengim değişti"
+        ],
+      "id": 127
+    },
+    {
+      "tag": "tirnaklarda_kucuk_ezikler",
+      "patterns": [
+          "tırnaklarda küçük ezikler",
+          "tırnaklarımda ezikler var",
+          "tırnaklarımda ezikler çıktı"
+        ],
+      "id": 128
+    },
+    {
+      "tag": "iltihapli_tirnaklar",
+      "patterns": [
+          "iltihaplı tırnaklar",
+          "tırnaklarım iltahaplandı",
+          "tırnaklarımda iltihap var"
+        ],
+      "id": 129
+    },
+    {
+      "tag": "su_toplama",
+      "patterns": [
+          "su toplama",
+          "su topladı"
+        ],
+      "id": 130
+    },
+    {
+      "tag": "burun_cevresinde_kirmizi_yara",
+      "patterns": [
+          "burun çevresinde kırmızı yara",
+          "burun çevremde kırmızı yaralar çıktı",
+          "burnumun çevresinde kırmızı yaralar var"
+        ],
+      "id": 131
+    },
+    {
+      "tag": "deride_kabuklu_yaralar",
+      "patterns": [
+          "deride kabuklu yaralar",
+          "derimde kabuk kabuk yaralar var",
+          "derim kabuk kabuk oldu",
+          "derimde kabuklu yaralar çıktı"
+        ],
+      "id": 132
+    }
+  ]
+}
